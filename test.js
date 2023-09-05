@@ -64,5 +64,75 @@ server {
     }
 
 
+// aa code 
+  <meta http-equiv="Content-Security-Policy" content="
+  script-src 'self'   https://www.googletagmanager.com/gtm.js https://www.google.com/recaptcha/api.js https://www.googletagmanager.com/gtag/js https://www.facebook.com/tr 'nonce-random-csp-nonce' 'report-sample'; 
+  style-src 'self' https://fonts.googleapis.com/css https://fonts.googleapis.com/ 'nonce-random-csp-nonce'  'report-sample';
+  font-src 'self' https://fonts.gstatic.com/ https://fonts.gstatic.com/s/roboto https://fonts.googleapis.com/css https://form.jotform.com/  'report-sample' ;
+  img-src 'self' https://www.google.co.in/ads/ga-audiences data: https://www.google-analytics.com/collect https://www.facebook.com/tr https://px.ads.linkedin.com/collect/ https://www.google.co.jp/ads/ga-audiences 'nonce-random-csp-nonce';
+  object-src 'none';
+  connect-src 'self' http://192.168.8.230:1099/pmsdob_api/v1/process https://stats.g.doubleclick.net/j/collect https://www.google-analytics.com/j/collect https://www.google-analytics.com/g/ https://analytics.google.com/g/ https://jsonip.com/;  
+  form-action 'self';
+  base-uri 'self';
+  frame-src 'self' https://www.google.com/ https://form.jotform.com/ 'nonce-random-csp-nonce' ;
+   ">
+
+// cams online
+  <meta http-equiv="Content-Security-Policy" content="
+  script-src 'self' https://www.gstatic.com/ https://www.google-analytics.com/ https://connect.facebook.net/signals/config/664413423741255 https://connect.facebook.net/signals/config https://connect.facebook.net/en_US/fbevents.js https://www.googletagmanager.com/gtm.js https://www.googletagmanager.com/gtag/js http://mozilla.github.io/pdf.js/build/pdf.js https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js https://cx.camsonline.com/Camserv-Plugin/UF-Webchat.js https://www.google.com/recaptcha/api.js https://www.gstatic.com/recaptcha/releases/x19joXI_IeQnFJ7YnfDapSZq/recaptcha__en.js 'nonce-cmFuZG9tLWNzcC1ub25jZQ==' 'report-sample'; 
+  style-src 'self' https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css https://fonts.googleapis.com/css2 'nonce-cmFuZG9tLWNzcC1ub25jZQ=='  'report-sample';
+  font-src 'self' https://fonts.gstatic.com/s/ https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/ 'nonce-cmFuZG9tLWNzcC1ub25jZQ==' ;
+  img-src 'self' https://cx.camsonline.com https://www.camsonline.com http://192.168.3.61 http://192.168.3.61:9190/assets/images/Technovity_award_for_CAMSfinserv.svg http://192.168.3.61:9190/assets/images/Navi_MF_news.svg http://192.168.3.61:9190/assets/images/BitSight_cyber_security.svg 
+  http://192.168.3.61:9191/cams/documents/cams_updates/Unclaimed_money_Mint.svg http://192.168.3.61:9191/cams/documents/cams_updates/AI_FinTech_100.svg http://192.168.3.61:9191/cams/documents/cams_updates/Online_KYC_modification2.svg 
+  http://192.168.3.61:9191/cams/documents/cams_updates/Asset_7.svg http://192.168.3.61:9190/assets/images/CFO_of_the_year%20award.svg http://192.168.3.61:9190/assets/images/BitSight_cyber_security.svg http://192.168.3.61:9191/cams/documents/cams_updates/Asset_7.svg  https://www.google.co.in/ads ;
+  object-src 'none';
+  connect-src 'self' http://192.168.3.61:9190/cams_api/v1/camsonline https://analytics.google.com/g/collect https://www.google-analytics.com/g/collect https://www.google-analytics.com/j/collect https://stats.g.doubleclick.net/j/collect https://connect.facebook.net/en_US/fbevents.js https://adservice.google.com/pagead/regclk;   
+  form-action 'self';
+  base-uri 'self';
+  frame-src 'self' https://www.google.com/ https://cx.camsonline.com/ 'nonce-cmFuZG9tLWNzcC1ub25jZQ==' ;
+   ">
+
+   // edge 360
+    <meta http-equiv="Content-Security-Policy" content="
+  script-src 'self' https://www.gstatic.com/recaptcha https://connect.facebook.net/signals/config/664413423741255 https://connect.facebook.net/signals/config https://connect.facebook.net/en_US/fbevents.js https://www.googletagmanager.com/gtm.js https://www.googletagmanager.com/gtag/js http://mozilla.github.io/pdf.js/build/pdf.js https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js https://cx.camsonline.com/Camserv-Plugin/UF-Webchat.js https://www.google.com/recaptcha/api.js https://www.gstatic.com/recaptcha/releases/x19joXI_IeQnFJ7YnfDapSZq/recaptcha__en.js 'nonce-cmFuZG9tLWNzcC1ub25jZQ==' 'report-sample'; 
+  style-src 'self' 'nonce-cmFuZG9tLWNzcC1ub25jZQ==' https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css https://fonts.googleapis.com/css2   'report-sample';
+  font-src 'self' https://fonts.gstatic.com/s/ https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/ ;
+  img-src 'self' https://cx.camsonline.com https://www.camsonline.com http://192.168.3.61 http://192.168.3.61:9190/assets/images/Technovity_award_for_CAMSfinserv.svg http://192.168.3.61:9190/assets/images/Navi_MF_news.svg http://192.168.3.61:9190/assets/images/BitSight_cyber_security.svg 
+  http://192.168.3.61:9191/cams/documents/cams_updates/Unclaimed_money_Mint.svg http://192.168.3.61:9191/cams/documents/cams_updates/AI_FinTech_100.svg http://192.168.3.61:9191/cams/documents/cams_updates/Online_KYC_modification2.svg 
+  http://192.168.3.61:9191/cams/documents/cams_updates/Asset_7.svg http://192.168.3.61:9190/assets/images/CFO_of_the_year%20award.svg http://192.168.3.61:9190/assets/images/BitSight_cyber_security.svg http://192.168.3.61:9191/cams/documents/cams_updates/Asset_7.svg  https://www.google.co.in/ads ;
+  object-src 'self';
+  connect-src 'self' https://edge360uat.camsonline.com/wrapapi/v1/clientonboarding https://analytics.google.com/g/collect https://www.google-analytics.com/g/collect https://www.google-analytics.com/j/collect https://stats.g.doubleclick.net/j/collect https://connect.facebook.net/en_US/fbevents.js https://adservice.google.com/pagead/regclk;   
+  form-action 'self';
+  base-uri 'self';
+  frame-src 'self' https://www.google.com/ https://cx.camsonline.com/ 'nonce-cmFuZG9tLWNzcC1ub25jZQ==' ;
+   ">
+
+// welthserv
+  <meta http-equiv="Content-Security-Policy" content="
+  script-src 'self'   https://www.googletagmanager.com/gtm.js https://www.google.com/recaptcha/api.js 'nonce-random-csp-nonce' 'report-sample'; 
+  style-src 'self' 'nonce-random-csp-nonce'  'report-sample';
+  font-src 'self' ;
+  img-src 'self' data: https://www.google-analytics.com/collect 'nonce-random-csp-nonce';
+  object-src 'self';
+  connect-src 'self' http://192.168.8.230:1099/pmsdob_api/v1/process https://www.google-analytics.com/j/collect https://www.google-analytics.com/g/;  
+  form-action 'self';
+  base-uri 'self';
+  frame-src 'self' https://www.google.com/ 'nonce-random-csp-nonce' ;
+   ">
+
+   // recon
+     <meta http-equiv="Content-Security-Policy" content="
+  script-src 'self' 'nonce-random-csp-nonce';
+  style-src 'self' 'nonce-random-csp-nonce' https://fonts.googleapis.com  'report-sample';
+  font-src 'self' https://fonts.googleapis.com https://fonts.gstatic.com 'nonce-random-csp-nonce' ;
+  img-src 'self';
+  object-src 'none';
+  connect-src 'self' http://192.168.3.61:9086/rocapi/v1/trxn; 
+  form-action 'self';
+  base-uri 'self';
+  frame-src 'self';
+  report-uri  http://192.168.3.61:9086/rocapi/v1/trxn;
+  ">
+
 
     
